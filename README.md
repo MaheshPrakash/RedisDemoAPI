@@ -14,20 +14,12 @@ This project demonstrates how to implement high-performance caching using Redis 
 ✔ Clean, simple architecture
 
 🏗️ Architecture Overview
-Client (Postman / Swagger)
-        |
-        v
-.NET 9 Minimal API
-        |
-        v
-Check Redis Cache  <───┐
-        |               |
-        | Cache Miss    | Cache Hit
-        v               |
-Fake DB (3s delay)      |
-        |               |
-        v               |
-Store in Redis ─────────┘
+RedisDemoAPI/
+│── Program.cs
+│── FakeProductRepository.cs
+│── README.md
+│── RedisDemoAPI.csproj
+
 
 🔧 Technologies Used
 Technology	Purpose
